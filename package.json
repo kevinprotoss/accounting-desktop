@@ -28,6 +28,11 @@
         "pack": "electron-builder --mac --win portable",
         "postinstall": "electron-rebuild"
     },
+    "engines": {
+        "node": ">=18.16.0 < 19",
+        "npm": ">=9"
+
+    },
     "dependencies": {
         "better-sqlite3": "8.7.0",
         "qrcode": "^1.5.4"
