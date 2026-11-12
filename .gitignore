@@ -5,3 +5,18 @@ dist
 Thumbs.db
 .vscode/
 .idea/
+
+# 应用运行时数据
+data/
+*.db
+*.lock
+
+# 生成的PDF
+*.pdf
+
+# 可能的本地凭证
+.env
+.env.*
+.npmrc
+*.pem
+*.key
